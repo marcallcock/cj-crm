@@ -1,0 +1,16 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700);
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+	color: blue;
+}
+
+h2 {
+	color: red;
+	&:hover {
+		@include animation(scale 1.0s ease-in, slide 2.0s ease);
+	}
+}
+
