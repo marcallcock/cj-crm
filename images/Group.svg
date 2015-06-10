@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="28px" height="18px" viewBox="0 0 28 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.2 (12043) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Desktop-HD-Copy-3" sketch:type="MSArtboardGroup" transform="translate(-1315.000000, -323.000000)">
+            <g id="Group" sketch:type="MSLayerGroup" transform="translate(1315.000000, 323.000000)">
+                <path d="M11.584507,13.3131966 C10.6690141,12.8923969 9.40140845,12.1910641 9.40140845,11.2091982 C9.40140845,9.66626614 11.2323944,9.38573303 11.443662,6.15960226 C11.584507,3.56467099 10.1760563,1.6710725 7.57042254,1.6710725 C4.96478873,1.6710725 3.55633803,3.56467099 3.6971831,6.15960226 C3.9084507,9.38573303 5.73943662,9.66626614 5.73943662,11.2091982 C5.73943662,12.2611974 4.47183099,12.9625302 3.55633803,13.3131966 C3.48591549,13.3131966 3.41549296,13.3833298 3.34507042,13.3833298 C2.85211268,13.663863 2.5,14.1547959 2.5,14.7859954 C2.5,15.6275947 3.20422535,16.3289275 4.04929577,16.3289275 L7.5,16.3289275 L10.9507042,16.3289275 C11.7957746,16.3289275 12.5,15.6275947 12.5,14.7859954 C12.5,14.0837614 12.3591549,13.663863 11.7957746,13.3833298 C11.7253521,13.3833298 11.6549296,13.3131966 11.584507,13.3131966 Z" id="Shape" fill="#1DD1FE" sketch:type="MSShapeGroup"></path>
+                <rect id="Rectangle-41" stroke="#1DD1FE" sketch:type="MSShapeGroup" x="0" y="0" width="15" height="18"></rect>
+                <rect id="Rectangle-41-Copy" stroke="#1DD1FE" sketch:type="MSShapeGroup" x="14" y="0" width="14" height="18"></rect>
+                <path d="M16.5,4.5 L25.5553856,4.5" id="Line" stroke="#1DD1FE" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                <path d="M16.5,13.5 L25.5553856,13.5" id="Line-Copy" stroke="#1DD1FE" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                <path d="M16.5,10.5 L25.5553856,10.5" id="Line-Copy-2" stroke="#1DD1FE" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                <path d="M16.5,7.5 L25.5553856,7.5" id="Line-Copy-3" stroke="#1DD1FE" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+            </g>
+        </g>
+    </g>
+</svg>

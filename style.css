@@ -1,0 +1,19 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700);
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
+body {
+  font-family: 'Open Sans', sans-serif; }
+
+h1 {
+  color: red; }
+
+h2 {
+  color: red; }
+  h2:hover {
+    -webkit-animation: scale 1s ease-in, slide 2s ease;
+    -moz-animation: scale 1s ease-in, slide 2s ease;
+    animation: scale 1s ease-in, slide 2s ease; }

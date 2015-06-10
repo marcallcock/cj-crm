@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="30px" height="31px" viewBox="0 0 30 31" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.2 (12043) - http://www.bohemiancoding.com/sketch -->
+    <title>Rectangle 40 + Oval 9 + Rectangle 41 + Path 47</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Desktop-HD-Copy-3" sketch:type="MSArtboardGroup" transform="translate(-138.000000, -705.000000)" fill="#1DD1FE">
+            <g id="Rectangle-40-+-Oval-9-+-Rectangle-41-+-Path-47" sketch:type="MSLayerGroup" transform="translate(153.000000, 720.912065) rotate(-45.000000) translate(-153.000000, -720.912065) translate(131.500000, 699.412065)">
+                <g id="Rectangle-40-+-Oval-9-+-Rectangle-41" transform="translate(21.465951, 21.353553) rotate(-315.000000) translate(-21.465951, -21.353553) translate(6.465951, 6.353553)" sketch:type="MSShapeGroup">
+                    <rect id="Rectangle-41" transform="translate(14.741160, 14.641705) rotate(-45.000000) translate(-14.741160, -14.641705) " x="4.20488323" y="4.7245321" width="21.67352" height="20"></rect>
+                </g>
+                <path d="M11,31 L1,21 L11,11 L11,31 Z M8.15224266,22.8180195 C9.25681216,22.8180195 10.1522427,21.922589 10.1522427,20.8180195 C10.1522427,19.71345 9.25681216,18.8180195 8.15224266,18.8180195 C7.04767316,18.8180195 6.15224266,19.71345 6.15224266,20.8180195 C6.15224266,21.922589 7.04767316,22.8180195 8.15224266,22.8180195 Z" id="Path-47" sketch:type="MSShapeGroup"></path>
+            </g>
+        </g>
+    </g>
+</svg>
