@@ -1,16 +1,172 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700);
 body {
 	font-family: 'Open Sans', sans-serif;
+	margin: 0;
 }
 
-h1 {
-	color: blue;
-}
+.hero {
+	height: 1000px;
+	background-color: #29566F;
 
-h2 {
-	color: red;
-	&:hover {
-		@include animation(scale 1.0s ease-in, slide 2.0s ease);
+	.product-intro {
+		width: 600px;
+		margin: 0 0 0 45%;
+		padding-top: 150px;
+		position: relative;
+
+		h1, h2, p {
+			color: #ffffff;
+		}
+
+		h1 {
+			margin-left: -30%;
+			font-size: 52px;
+			font-weight: 600;
+			margin-bottom: 0px;
+			-webkit-margin-before: 0em;
+  		-webkit-margin-after: 0em;
+		}
+
+		h2 {
+		  font-size: 32px;
+			font-weight: 300;
+			margin-bottom: 15px;
+			-webkit-margin-before: 0.5em;
+		  -webkit-margin-after: 0.5em;
+		  -webkit-margin-start: 0px;
+		  -webkit-margin-end: 0px;
+		  width: 500px;
+		}
+
+		p {
+			font-weight: 300;
+			font-size: 14px;
+			line-height: 1.75;
+			width: 400px;
+		}
 	}
+
+	.animated-icons {
+		.location {
+		  position: absolute;
+		  right: 200px;
+		  top: 150px;
+		}
+		.clock {
+		  position: absolute;
+		  left: 100px;
+		  top: 300px;
+		}
+		.private {
+		  position: absolute;
+		  left: 130px;
+		  top: 100px;
+		}
+		.contact {
+		  position: absolute;
+		  right: 80px;
+		  top: 320px;
+		}
+		.attachment {
+		  position: absolute;
+		  left: 500px;
+		  top: 620px;
+		}
+		.done {
+		  position: absolute;
+		  left: 400px;
+		  top: 70px;
+		}
+		.email {
+		  position: absolute;
+		  left: 450px;
+		  top: 400px;
+		}
+		.folder {
+		  position: absolute;
+		  right: 140px;
+		  top: 630px;
+		}
+		.share {
+		  position: absolute;
+		  right: 400px;
+		  top: 600px;
+		}
+		.tags {
+		  position: absolute;
+		  left: 210px;
+		  top: 710px;
+		}
+		.todo {
+		  position: absolute;
+		  left: 250px;
+		  top: 470px;
+		}
+	}
+
+	.animated {
+	  animation-duration: 8s;
+	  animation-fill-mode: both;
+	  animation-iteration-count: infinite;
+	}
+
+	@keyframes flash {
+	  0% {opacity: 0;}
+	  5% {opacity: .5;}
+	  10% {opacity: 1;}
+	  30% {opacity: 0;}
+	  100% {opacity: 0;}
+	}
+
+	.flash {
+	  animation-name: flash;
+	}
+	.delay-1 {
+		-webkit-animation-delay: 1s; /* Chrome, Safari, Opera */
+    animation-delay: 1s;
+	}
+	.delay-2 {
+		-webkit-animation-delay: 2s; /* Chrome, Safari, Opera */
+    animation-delay: 2s;
+	}
+	.delay-3 {
+		-webkit-animation-delay: 3s; /* Chrome, Safari, Opera */
+    animation-delay: 3s;
+	}
+	.delay-4 {
+		-webkit-animation-delay: 4s; /* Chrome, Safari, Opera */
+    animation-delay: 4s;
+	}
+	.delay-5 {
+		-webkit-animation-delay: 5s; /* Chrome, Safari, Opera */
+    animation-delay: 5s;
+	}
+	.delay-6 {
+		-webkit-animation-delay: 6s; /* Chrome, Safari, Opera */
+    animation-delay: 6s;
+	}
+	.delay-7 {
+		-webkit-animation-delay: 7s; /* Chrome, Safari, Opera */
+    animation-delay: 7s;
+	}
+	.delay-8 {
+		-webkit-animation-delay: 8s; /* Chrome, Safari, Opera */
+    animation-delay: 8s;
+	}
+	.delay-9 {
+		-webkit-animation-delay: 9s; /* Chrome, Safari, Opera */
+    animation-delay: 9s;
+	}
+	.delay-10 {
+		-webkit-animation-delay: 10s; /* Chrome, Safari, Opera */
+    animation-delay: 10s;
+	}
+	.delay-11 {
+		-webkit-animation-delay: 11s; /* Chrome, Safari, Opera */
+    animation-delay: 11s;
+	}
+
 }
+
+
 
