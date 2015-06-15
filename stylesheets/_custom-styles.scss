@@ -1,6 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700);
 body {
-	font-family: 'Open Sans', sans-serif;
 	margin: 0;
 }
 
@@ -20,8 +19,6 @@ body {
 
 		h1 {
 			margin-left: -30%;
-			font-size: 52px;
-			font-weight: 600;
 			margin-bottom: 0px;
 			-webkit-margin-before: 0em;
   		-webkit-margin-after: 0em;
@@ -30,7 +27,6 @@ body {
 		h2 {
 		  font-size: 32px;
 			font-weight: 300;
-			margin-bottom: 15px;
 			-webkit-margin-before: 0.5em;
 		  -webkit-margin-after: 0.5em;
 		  -webkit-margin-start: 0px;
@@ -165,8 +161,86 @@ body {
 		-webkit-animation-delay: 11s; /* Chrome, Safari, Opera */
     animation-delay: 11s;
 	}
-
 }
 
+section {
+	width: 96%;
+	margin: 30px auto 70px;
+	text-align: center;
+	padding: 40px 0 65px;
+	@include clearfix;
+	position: relative;
+}
+
+.logs {
+	@include linear-gradient(-221deg, #FFFFFF 0%, #E8F4F9 100%);
+}
+
+.feature-image, .feature-copy {
+	width: 50%;
+	float: left;
+	display: block;
+	z-index: 100;
+	position: relative;
+}
+
+.feature-image {
+	.inner {
+		float: right;
+		padding: 0 65px 0 30px;
+	}
+}
+
+.feature-copy {
+	text-align: left;
+	max-width: 450px;
+
+	.inner {
+		float: left;
+		padding: 0 0 0 65px;
+	}
+}
+
+.anchor {
+	position: absolute;
+	left: -10%;
+	bottom: -20px;
+}
+
+.border-top {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 1px;
+	@include linear-gradient(90deg, rgba(153,157,211,0.05) 0%, #999ED3 100%);
+}
+
+.border-right {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	width: 1px;
+	@include linear-gradient(0deg, rgba(153,157,211,0.05) 0%, #999ED3 100%);
+}
+
+.border-bottom {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 1px;
+	@include linear-gradient(-90deg, rgba(153,157,211,0.05) 0%, #999ED3 100%);
+}
+
+.border-left {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	width: 1px;
+	@include linear-gradient(180deg, rgba(153,157,211,0.05) 0%, #999ED3 100%);
+}
 
 
