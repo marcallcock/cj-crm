@@ -1606,6 +1606,182 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/files-icon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 940,
+		"inputAbbreviatedPath": "\/images\/files-icon.png",
+		"outputAbbreviatedPath": "\/images\/files-icon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/files-icon@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1886,
+		"inputAbbreviatedPath": "\/images\/files-icon@2x.png",
+		"outputAbbreviatedPath": "\/images\/files-icon@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/files-tab.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 21932,
+		"inputAbbreviatedPath": "\/images\/files-tab.png",
+		"outputAbbreviatedPath": "\/images\/files-tab.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/files-tab@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 49116,
+		"inputAbbreviatedPath": "\/images\/files-tab@2x.png",
+		"outputAbbreviatedPath": "\/images\/files-tab@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/icloud.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 17002,
+		"inputAbbreviatedPath": "\/images\/icloud.png",
+		"outputAbbreviatedPath": "\/images\/icloud.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/icloud@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 50163,
+		"inputAbbreviatedPath": "\/images\/icloud@2x.png",
+		"outputAbbreviatedPath": "\/images\/icloud@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/index-logs-icon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1080,
+		"inputAbbreviatedPath": "\/images\/index-logs-icon.png",
+		"outputAbbreviatedPath": "\/images\/index-logs-icon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/index-logs-icon@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2391,
+		"inputAbbreviatedPath": "\/images\/index-logs-icon@2x.png",
+		"outputAbbreviatedPath": "\/images\/index-logs-icon@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/logs-icon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 828,
+		"inputAbbreviatedPath": "\/images\/logs-icon.png",
+		"outputAbbreviatedPath": "\/images\/logs-icon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/logs-icon@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2090,
+		"inputAbbreviatedPath": "\/images\/logs-icon@2x.png",
+		"outputAbbreviatedPath": "\/images\/logs-icon@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/logs-tab.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 29041,
+		"inputAbbreviatedPath": "\/images\/logs-tab.png",
+		"outputAbbreviatedPath": "\/images\/logs-tab.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/logs-tab@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 68450,
+		"inputAbbreviatedPath": "\/images\/logs-tab@2x.png",
+		"outputAbbreviatedPath": "\/images\/logs-tab@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/todo-icon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1264,
+		"inputAbbreviatedPath": "\/images\/todo-icon.png",
+		"outputAbbreviatedPath": "\/images\/todo-icon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/todo-icon@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2791,
+		"inputAbbreviatedPath": "\/images\/todo-icon@2x.png",
+		"outputAbbreviatedPath": "\/images\/todo-icon@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/todos-tab.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 20813,
+		"inputAbbreviatedPath": "\/images\/todos-tab.png",
+		"outputAbbreviatedPath": "\/images\/todos-tab.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/todos-tab@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 49957,
+		"inputAbbreviatedPath": "\/images\/todos-tab@2x.png",
+		"outputAbbreviatedPath": "\/images\/todos-tab@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -1614,6 +1790,28 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/js\/retina.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/retina.js",
+		"outputAbbreviatedPath": "\/js\/min\/retina-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/retina.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/retina.min.js",
+		"outputAbbreviatedPath": "\/js\/min\/retina.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/README.md": {
 		"criticStyle": 0,

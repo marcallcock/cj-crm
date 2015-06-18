@@ -2186,8 +2186,18 @@ Copyright (c) 2015 Daniel Eden
 body {
   margin: 0; }
 
+.store-buttons {
+  position: fixed;
+  top: 20px;
+  right: 30px;
+  z-index: 9999; }
+  .store-buttons li {
+    display: inline-block;
+    margin-left: 20px;
+    list-style-type: none; }
+
 .hero {
-  height: 1000px;
+  height: 800px;
   background-color: #29566F; }
   .hero .product-intro {
     width: 600px;
@@ -2324,14 +2334,14 @@ section {
   width: 96%;
   margin: 30px auto 70px;
   text-align: center;
-  padding: 40px 0 65px;
+  padding: 40px 20px 65px;
   position: relative; }
   section::after {
     clear: both;
     content: "";
     display: table; }
 
-.logs {
+.feature-bg-grad {
   background-color: #FFFFFF;
   background-image: -webkit-linear-gradient(-49deg, #FFFFFF 0%, #E8F4F9 100%);
   background-image: linear-gradient(-221deg,#FFFFFF 0%, #E8F4F9 100%); }
@@ -2349,7 +2359,7 @@ section {
 
 .feature-copy {
   text-align: left;
-  max-width: 450px; }
+  max-width: 520px; }
   .feature-copy .inner {
     float: left;
     padding: 0 0 0 65px; }
@@ -2364,40 +2374,133 @@ section {
   top: 0;
   left: 0;
   right: 0;
-  height: 1px;
-  background-color: rgba(153, 157, 211, 0.05);
-  background-image: -webkit-linear-gradient(-360deg, rgba(153, 157, 211, 0.05) 0%, #999ED3 100%);
-  background-image: linear-gradient(90deg,rgba(153, 157, 211, 0.05) 0%, #999ED3 100%); }
+  height: 1px; }
 
 .border-right {
   position: absolute;
   top: 0;
   bottom: 0;
   right: 0;
-  width: 1px;
-  background-color: rgba(153, 157, 211, 0.05);
-  background-image: -webkit-linear-gradient(-270deg, rgba(153, 157, 211, 0.05) 0%, #999ED3 100%);
-  background-image: linear-gradient(0deg,rgba(153, 157, 211, 0.05) 0%, #999ED3 100%); }
+  width: 1px; }
 
 .border-bottom {
   position: absolute;
   bottom: 0;
   left: 0;
   right: 0;
-  height: 1px;
-  background-color: rgba(153, 157, 211, 0.05);
-  background-image: -webkit-linear-gradient(-180deg, rgba(153, 157, 211, 0.05) 0%, #999ED3 100%);
-  background-image: linear-gradient(-90deg,rgba(153, 157, 211, 0.05) 0%, #999ED3 100%); }
+  height: 1px; }
 
 .border-left {
   position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
-  width: 1px;
+  width: 1px; }
+
+.border-top-logs {
+  background-color: rgba(153, 157, 211, 0.05);
+  background-image: -webkit-linear-gradient(-360deg, rgba(153, 157, 211, 0.05) 0%, #999ED3 100%);
+  background-image: linear-gradient(90deg,rgba(153, 157, 211, 0.05) 0%, #999ED3 100%); }
+
+.border-right-logs {
+  background-color: rgba(153, 157, 211, 0.05);
+  background-image: -webkit-linear-gradient(-270deg, rgba(153, 157, 211, 0.05) 0%, #999ED3 100%);
+  background-image: linear-gradient(0deg,rgba(153, 157, 211, 0.05) 0%, #999ED3 100%); }
+
+.border-bottom-logs {
+  background-color: rgba(153, 157, 211, 0.05);
+  background-image: -webkit-linear-gradient(-180deg, rgba(153, 157, 211, 0.05) 0%, #999ED3 100%);
+  background-image: linear-gradient(-90deg,rgba(153, 157, 211, 0.05) 0%, #999ED3 100%); }
+
+.border-left-logs {
   background-color: rgba(153, 157, 211, 0.05);
   background-image: -webkit-linear-gradient(-450deg, rgba(153, 157, 211, 0.05) 0%, #999ED3 100%);
   background-image: linear-gradient(180deg,rgba(153, 157, 211, 0.05) 0%, #999ED3 100%); }
+
+.border-top-todo {
+  background-color: rgba(66, 203, 180, 0.05);
+  background-image: -webkit-linear-gradient(-360deg, rgba(66, 203, 180, 0.05) 0%, #42CBB4 100%);
+  background-image: linear-gradient(90deg,rgba(66, 203, 180, 0.05) 0%, #42CBB4 100%); }
+
+.border-right-todo {
+  background-color: rgba(66, 203, 180, 0.05);
+  background-image: -webkit-linear-gradient(-270deg, rgba(66, 203, 180, 0.05) 0%, #42CBB4 100%);
+  background-image: linear-gradient(0deg,rgba(66, 203, 180, 0.05) 0%, #42CBB4 100%); }
+
+.border-bottom-todo {
+  background-color: rgba(66, 203, 180, 0.05);
+  background-image: -webkit-linear-gradient(-450deg, rgba(66, 203, 180, 0.05) 0%, #42CBB4 100%);
+  background-image: linear-gradient(180deg,rgba(66, 203, 180, 0.05) 0%, #42CBB4 100%); }
+
+.border-left-todo {
+  background-color: rgba(66, 203, 180, 0.05);
+  background-image: -webkit-linear-gradient(-450deg, rgba(66, 203, 180, 0.05) 0%, #42CBB4 100%);
+  background-image: linear-gradient(180deg,rgba(66, 203, 180, 0.05) 0%, #42CBB4 100%); }
+
+.border-top-files {
+  background-color: rgba(18, 71, 100, 0.05);
+  background-image: -webkit-linear-gradient(-360deg, rgba(18, 71, 100, 0.05) 0%, #FF814B 100%);
+  background-image: linear-gradient(90deg,rgba(18, 71, 100, 0.05) 0%, #FF814B 100%); }
+
+.border-right-files {
+  background-color: rgba(18, 71, 100, 0.05);
+  background-image: -webkit-linear-gradient(-270deg, rgba(18, 71, 100, 0.05) 0%, #FF814B 100%);
+  background-image: linear-gradient(0deg,rgba(18, 71, 100, 0.05) 0%, #FF814B 100%); }
+
+.border-bottom-files {
+  background-color: rgba(18, 71, 100, 0.05);
+  background-image: -webkit-linear-gradient(-450deg, rgba(18, 71, 100, 0.05) 0%, #FF814B 100%);
+  background-image: linear-gradient(180deg,rgba(18, 71, 100, 0.05) 0%, #FF814B 100%); }
+
+.border-left-files {
+  background-color: rgba(18, 71, 100, 0.05);
+  background-image: -webkit-linear-gradient(-450deg, rgba(18, 71, 100, 0.05) 0%, #FF814B 100%);
+  background-image: linear-gradient(180deg,rgba(18, 71, 100, 0.05) 0%, #FF814B 100%); }
+
+.feature-index {
+  max-width: 87.5em;
+  margin-left: auto;
+  margin-right: auto; }
+  .feature-index::after {
+    clear: both;
+    content: "";
+    display: table; }
+
+.feature-item {
+  float: left;
+  display: block;
+  margin-right: 2.3576515979%;
+  width: 23.2317613015%; }
+  .feature-item:last-child {
+    margin-right: 0; }
+
+.testimonial {
+  float: left;
+  display: block;
+  margin-right: 2.3576515979%;
+  width: 31.7615656014%; }
+  .testimonial:last-child {
+    margin-right: 0; }
+
+.row {
+  margin-bottom: 30px; }
+  .row::after {
+    clear: both;
+    content: "";
+    display: table; }
+
+.testimonials {
+  background-color: #3271B0;
+  background-image: -webkit-linear-gradient(-318deg, #3271B0 0%, #42CBB4 100%);
+  background-image: linear-gradient(48deg,#3271B0 0%, #42CBB4 100%); }
+  .testimonials::after {
+    clear: both;
+    content: "";
+    display: table; }
+  .testimonials h2, .testimonials h4, .testimonials p {
+    color: #fff; }
+  .testimonials h4, .testimonials p {
+    text-align: left; }
 
 body {
   font-family: 'Open Sans', sans-serif; }
