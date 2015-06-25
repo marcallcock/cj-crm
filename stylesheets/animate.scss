@@ -12,6 +12,8 @@ Copyright (c) 2015 Daniel Eden
   animation-duration: .5s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
 }
 
 .animated.infinite {
@@ -3270,3 +3272,8 @@ Copyright (c) 2015 Daniel Eden
   -webkit-animation-name: slideOutUp;
   animation-name: slideOutUp;
 }
+
+
+
+
+
