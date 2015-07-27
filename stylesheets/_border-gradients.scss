@@ -1,0 +1,102 @@
+.border-top {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 1px;
+}
+
+.border-right {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	width: 1px;
+}
+
+.border-bottom {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 1px;
+}
+
+.border-left {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	width: 1px;
+}
+
+.border-top-logs {
+	@include linear-gradient(90deg, rgba(153,157,211,0.05) 0%, #999ED3 100%);
+}
+
+.border-right-logs {
+	@include linear-gradient(0deg, rgba(153,157,211,0.05) 0%, #999ED3 100%);
+}
+
+.border-bottom-logs {
+	@include linear-gradient(-90deg, rgba(153,157,211,0.05) 0%, #999ED3 100%);
+}
+
+.border-left-logs {
+	@include linear-gradient(180deg, rgba(153,157,211,0.05) 0%, #999ED3 100%);
+}
+
+.border-top-todo {
+	@include linear-gradient(90deg, rgba(66,203,180,0.05) 0%, #42CBB4 100%);
+}
+
+.border-right-todo {
+	@include linear-gradient(0deg, rgba(66,203,180,0.05) 0%, #42CBB4 100%);
+}
+
+.border-bottom-todo {
+	@include linear-gradient(180deg, rgba(66,203,180,0.05) 0%, #42CBB4 100%);
+}
+
+.border-left-todo {
+	@include linear-gradient(180deg, rgba(66,203,180,0.05) 0%, #42CBB4 100%);
+}
+
+
+
+.border-top-files {
+	@include linear-gradient(90deg, rgba(18,71,100,0.05) 0%, #FF814B 100%);
+}
+
+.border-right-files {
+	@include linear-gradient(0deg, rgba(18,71,100,0.05) 0%, #FF814B 100%);
+}
+
+.border-bottom-files {
+	@include linear-gradient(180deg, rgba(18,71,100,0.05) 0%, #FF814B 100%);
+}
+
+.border-left-files {
+	@include linear-gradient(180deg, rgba(18,71,100,0.05) 0%, #FF814B 100%);
+}
+
+
+
+.border-top-map {
+	@include linear-gradient(90deg, rgba(18,71,100,0.05) 0%, #7493AE 100%);
+}
+
+.border-right-map {
+	@include linear-gradient(0deg, rgba(18,71,100,0.05) 0%, #7493AE 100%);
+}
+
+.border-bottom-map {
+	@include linear-gradient(180deg, rgba(18,71,100,0.05) 0%, #7493AE 100%);
+}
+
+.border-left-map {
+	@include linear-gradient(180deg, rgba(18,71,100,0.05) 0%, #7493AE 100%);
+}
+
+
+

@@ -3,8 +3,8 @@ body {
 }
 
 h1 {
-	font-size: em(52);
-	font-weight: $font-weight-light;
+	font-size: em(36);
+	font-weight: $font-weight-semi-bold;
 	color: $off-black;
 }
 
@@ -12,12 +12,30 @@ h2 {
 	font-size: em(40);
 	font-weight: $font-weight-light;
 	color: $off-black;
-	margin-bottom: 50px;
+	margin: 20px 0 70px;
+	@media screen and (max-width: 900px) {
+		font-size: em(30);
+		margin: 20px 0 40px;
+	}
+}
+
+.device-sync {
+	h2 {
+		margin-bottom: 20px;
+	}
+}
+
+h3 {
+	color: $blue;
+	font-weight: $font-weight-normal;
 }
 
 h4 {
-
-}
+	-webkit-margin-before: 0;
+  	-webkit-margin-after: 0;
+  	font-weight: $font-weight-normal;
+  	font-size: 22px;
+	}
 
 p {
 	color: $body;

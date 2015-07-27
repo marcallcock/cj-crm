@@ -1,0 +1,13 @@
+.pin {
+	position: absolute;
+	.animated {
+		-webkit-animation-duration: 1.5s;
+		animation-duration: 1.5s;
+	}
+}
+
+.green-pin {
+	top: 150px;
+	right: 320px;
+}
+

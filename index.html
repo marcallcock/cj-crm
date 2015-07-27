@@ -7,9 +7,10 @@
   <title>The HTML5 Herald</title>
   <meta name="description" content="The HTML5 Herald">
   <meta name="author" content="SitePoint">
-
+  <meta name="viewport" content="width=device-width">
   <link rel="stylesheet" href="style.css">
-
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="node_modules/jquery-lazyload/jquery.lazyload.js"></script>
   <!--[if lt IE 9]>
   <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
@@ -18,17 +19,22 @@
 <body>
   <div class="store-buttons">
     <ul>
-      <li><a href=""><img src="images/app-store-btn.svg" alt=""></a></li>
-      <li><a href=""><img src="images/mac-app-store-btn.svg" alt=""></a></li>
+      <li><a href=""><img class="app-store" src="images/app-store-btn.svg" alt=""></a></li>
+      <li><a href=""><img class="mac-app-store" src="images/mac-app-store-btn.svg" alt=""></a></li>
     </ul>
   </div>
 	<div class="hero">
-    <div class="product-intro">
-      <img class="animated fadeInDown" src="images/crm-app-icon.png" alt="" width="120" height="120">
-  		<h1 class="animated fadeInUp delay-1">Contacts Journal CRM</h1>
-  		<h2 class="animated fadeInUp delay-2">Transform your business and professional relationships</h2>
-  		<p class="animated fadeInUp delay-3">The iPhone, iPad and Mac App that let’s you keep records of past conversations, set followups for upcoming meetings, link important documents to your contacts, plot your contacts on a map, and extend your contacts information with customizable fields.
-  		</p>
+    <div class="inner grid">
+      <div class="product-intro unit one-third">
+        <img class="app-icon animated fadeInDown" src="images/crm-app-icon.png" alt="" width="120" height="120">
+        <h1 class="animated fadeInUp delay-1">Contacts Journal CRM</h1>
+        <h2 class="animated fadeInUp delay-2">Transform your business and professional relationships</h2>
+        <p class="animated fadeInUp delay-3">The iPhone, iPad and Mac App that let’s you keep records of past conversations, set followups for upcoming meetings, link important documents to your contacts, plot your contacts on a map, and extend your contacts information with customizable fields.
+        </p>
+      </div>
+      <div class="divices unit two-thirds">
+        <img src="images/macbook-ipad-iphone.png" alt="">
+      </div>
     </div>
     <div class="animated-icons">
       <img src="images/location.svg" class="location animated fadeIn delay-1">
@@ -43,157 +49,190 @@
       <img src="images/tags.svg" class="tags animated fadeIn delay-10">
       <img src="images/todo.svg" class="todo animated fadeIn delay-11">
     </div>
+    <div class="promotion">
+      <h4>CRM is now available as a Mac app. Dowload it now and start your free trial</h4>
+      <a href=""><img src="images/mac-app-store-btn.svg" alt=""></a>
+    </div>
   </div>
 
-  <section class="feature logs feature-bg-grad">
+  <section class="feature logs feature-bg-grad wrap wider">
     <img src="images/logs-icon.png" alt="">
     <h2>Keep track of your history</h2>
-    <div class="feature-details">
-      <div class="feature-image">
+    <div class="grid">
+      <div class="feature-details">
+      <div class="feature-image unit half">
         <div class="inner">
           <img src="images/logs-tab.png" alt="">
         </div>
       </div>
-      <div class="feature-copy">
+      <div class="feature-copy unit half">
         <div class="inner">
           <h4>Logs</h4>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
         </div>
       </div>
     </div>
-    <img src="images/rectangle-logs.svg" class="anchor" alt="">
+    </div>
     <span class="border-top border-top-logs"></span>
     <span class="border-right border-right-logs"></span>
     <span class="border-bottom border-bottom-logs"></span>
     <span class="border-left border-left-logs"></span>
   </section>
 
-  <section class="feature todos feature-bg-grad">
+  <section class="feature todos feature-bg-grad wrap wider">
     <img src="images/todo-icon.png" alt="">
     <h2>Plan your future</h2>
-    <div class="feature-details">
-      <div class="feature-image">
-        <div class="inner">
-          <img src="images/todos-tab.png" alt="">
+    <div class="grid">
+      <div class="feature-details">
+        <div class="feature-image unit half">
+          <div class="inner">
+            <img src="images/todos-tab.png" alt="">
+          </div>
         </div>
-      </div>
-      <div class="feature-copy">
-        <div class="inner">
-          <h4>Logs</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <div class="feature-copy unit half">
+          <div class="inner">
+            <h4>Todos</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          </div>
         </div>
       </div>
     </div>
-    <img src="images/rectangle-todos.svg" class="anchor" alt="">
     <span class="border-top border-top-todo"></span>
     <span class="border-right border-right-todo"></span>
     <span class="border-bottom border-bottom-todo"></span>
     <span class="border-left border-left-todo"></span>
   </section>
 
-  <section class="feature todos feature-bg-grad">
+  <section class="feature files feature-bg-grad wrap wider">
     <img src="images/files-icon.png" alt="">
     <h2>Keep track of your files</h2>
-    <div class="feature-details">
-      <div class="feature-image">
-        <div class="inner">
-          <img src="images/files-tab.png" alt="">
+    <div class="grid">
+      <div class="feature-details">
+        <div class="feature-image unit half">
+          <div class="inner">
+            <img src="images/files-tab.png" alt="">
+          </div>
         </div>
-      </div>
-      <div class="feature-copy">
-        <div class="inner">
-          <h4>files</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <div class="feature-copy unit half">
+          <div class="inner">
+            <h4>files</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          </div>
         </div>
       </div>
     </div>
-    <img src="images/rectangle-files.svg" class="anchor" alt="">
     <span class="border-top border-top-files"></span>
     <span class="border-right border-right-files"></span>
     <span class="border-bottom border-bottom-files"></span>
     <span class="border-left border-left-files"></span>
   </section>
 
-    <section class="feature todos device-sync">
-    <div class="feature-details">
-      <div class="feature-image">
-        <div class="inner">
-          <img src="images/icloud.png" alt="">
+  <section class="feature track-location wrap wider">
+    <div class="grid">
+      <div class="feature-details">
+        <div class="unit half">
+          <div class="inner">
+            <img src="images/feature-index/map-view.png" alt="">
+            <h2>Keep track by location</h2>
+            <h4>Maps</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          </div>
+        </div>
+        <div class="pins">
+          <!-- <img class="pin green-pin animated bounceInDown delay-2" src="images/pins/green-pin.png" alt=""> -->
+          <img class="lazy pin green-pin animated bounceInDown delay-2" data-original="images/pins/green-pin.png" src="images/pins/green-pin.png">
         </div>
       </div>
-      <div class="feature-copy">
-        <div class="inner">
-          <h2>All your devices in sync</h2>
-          <h4>files</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+    <span class="border-top border-top-map"></span>
+    <span class="border-right border-right-map"></span>
+    <span class="border-bottom border-bottom-map"></span>
+    <span class="border-left border-left-map"></span>
+  </section>
+
+  <section class="feature todos device-sync wrap wider">
+    <div class="grid">
+      <div class="feature-details">
+        <div class="feature-image unit half">
+          <div class="inner">
+            <img class="icloud-logo" src="images/icloud.png" alt="">
+          </div>
+        </div>
+        <div class="feature-copy unit half">
+          <div class="inner">
+            <img class="icloud-devices" src="images/icloud-devices.png" alt="">
+            <h2>All your devices in sync</h2>
+            <h4>iCloud</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          </div>
         </div>
       </div>
     </div>
   </section>
 
-  <section class="feature-index">
+  <section class="feature-index wrap wider">
     <h2>Feature index</h2>
-    <div class="row">
-      <div class="feature-item">
+    <div class="row grid">
+      <div class="feature-item unit one-quarter">
         <img src="images/feature-index/index-logs-icon.png" alt="">
         <h3>Logs</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
       </div>
-      <div class="feature-item">
+      <div class="feature-item unit one-quarter">
         <img src="images/feature-index/todo.png" alt="">
         <h3>ToDos</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
       </div>
-      <div class="feature-item">
+      <div class="feature-item unit one-quarter">
         <img src="images/feature-index/files.png" alt="">
         <h3>Files</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
       </div>
-      <div class="feature-item">
+      <div class="feature-item unit one-quarter">
         <img src="images/feature-index/map-view.png" alt="">
         <h3>Map View</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
       </div>
     </div>
-    <div class="row">
-      <div class="feature-item">
+    <div class="row grid">
+      <div class="feature-item unit one-quarter">
         <img src="images/feature-index/address-book.png" alt="">
         <h3>Syncs With Address Book</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
       </div>
-      <div class="feature-item">
+      <div class="feature-item unit one-quarter">
         <img src="images/feature-index/group-management.png" alt="">
         <h3>Group Management</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
       </div>
-      <div class="feature-item">
+      <div class="feature-item unit one-quarter">
         <img src="images/feature-index/private-contacts.png" alt="">
         <h3>Private Contacts</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
       </div>
-      <div class="feature-item">
+      <div class="feature-item unit one-quarter">
         <img src="images/feature-index/user-fields.png" alt="">
-        <h3>Map View</h3>
+        <h3>User Fields</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
       </div>
     </div>
-    <div class="row">
-      <div class="feature-item">
+    <div class="row grid">
+      <div class="feature-item unit one-quarter">
         <img src="images/feature-index/reporting.png" alt="">
         <h3>Reporting</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
       </div>
-      <div class="feature-item">
+      <div class="feature-item unit one-quarter">
         <img src="images/feature-index/device-sync.png" alt="">
         <h3>Device Sync</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
       </div>
-      <div class="feature-item">
+      <div class="feature-item unit one-quarter">
         <img src="images/feature-index/dropbox.png" alt="">
         <h3>Dropbox Sync</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
       </div>
-      <div class="feature-item">
+      <div class="feature-item unit one-quarter">
         <img src="images/feature-index/apple-watch.png" alt="">
         <h3>Apple Watch Support</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
@@ -201,26 +240,48 @@
     </div>
   </section>
 
-  <section class="testimonials">
-    <h2>Happy Users</h2>
-    <div class="row">
-      <div class="testimonial">
-        <h4>Must have for outside sales</h4>
-        <p>I don't usually take the time to do reviews. But this is a great must have app for any sales person. It has really kept me organized and allows me to make quick notes on the go. I before would write down notes and books and on pieces of paper and always lose information and business card...</p>
+  <div class="wide-wrapper testimonials">
+    <div class="inner-full-width white-transparency">
+      <section>
+        <h2>Happy Users</h2>
+        <div class="row grid">
+          <div class="testimonial unit one-third">
+            <h4>Must have for outside sales</h4>
+            <p>I don't usually take the time to do reviews. But this is a great must have app for any sales person. It has really kept me organized and allows me to make quick notes on the go. I before would write down notes and books and on pieces of paper and always lose information and business card...</p>
+          </div>
+          <div class="testimonial unit one-third">
+            <h4>Must have for outside sales</h4>
+            <p>I don't usually take the time to do reviews. But this is a great must have app for any sales person. It has really kept me organized and allows me to make quick notes on the go. I before would write down notes and books and on pieces of paper and always lose information and business card...</p>
+          </div>
+          <div class="testimonial unit one-third">
+            <h4>Must have for outside sales</h4>
+            <p>I don't usually take the time to do reviews. But this is a great must have app for any sales person. It has really kept me organized and allows me to make quick notes on the go. I before would write down notes and books and on pieces of paper and always lose information and business card...</p>
+          </div>
+        </div>
       </div>
-      <div class="testimonial">
-        <h4>Must have for outside sales</h4>
-        <p>I don't usually take the time to do reviews. But this is a great must have app for any sales person. It has really kept me organized and allows me to make quick notes on the go. I before would write down notes and books and on pieces of paper and always lose information and business card...</p>
-      </div>
-      <div class="testimonial">
-        <h4>Must have for outside sales</h4>
-        <p>I don't usually take the time to do reviews. But this is a great must have app for any sales person. It has really kept me organized and allows me to make quick notes on the go. I before would write down notes and books and on pieces of paper and always lose information and business card...</p>
-      </div>
+    </section>
+    <div class="store-buttons">
+      <h2>Get started with a free trial</h2>
+      <ul>
+        <li><a href=""><img class="app-store" src="images/app-store-btn.svg" alt=""></a></li>
+        <li><a href=""><img class="mac-app-store" src="images/mac-app-store-btn.svg" alt=""></a></li>
+      </ul>
     </div>
-  </section>
+    <footer>
+      <p>For questions or feedback about Contacts Journal, please email <a href="mailto:support@zaal-llc.com">support@zaal-llc.com</a>
+      <span>© 2015 zaal LLC</span>
+      </p>
+    </footer>
+  </div>
 
 
   <script src="js/scripts.js"></script>
   <script type="text/javascript" src="js/retina.js"></script>
+  <script>
+    $(function() {
+      $("img.lazy").lazyload();
+    });
+  </script>
+
 </body>
 </html>
