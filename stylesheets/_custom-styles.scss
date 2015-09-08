@@ -9,6 +9,7 @@ html {
 
 body {
 	margin: 0;
+	border-bottom: 15px solid $orange;
 }
 
 .store-buttons {
@@ -42,11 +43,12 @@ body {
 }
 
 section {
-	margin: 40px auto 70px;
+	margin: 55px auto 70px;
 	text-align: center;
 	padding: 40px 20px 65px;
 	position: relative;
 	width: 93%;
+	overflow: hidden;
 	@media screen and (max-width: 900px) {
 		padding: 40px 20px 20px;
 	}
@@ -59,7 +61,6 @@ section {
   text-align: left;
   h2 {
   	margin-bottom: 20px;
-  	color: $blue-grey;
   }
   h4 {
   	color: $blue-grey;
@@ -68,6 +69,7 @@ section {
 
 .feature-bg-grad {
 	@include linear-gradient(-221deg, #FFFFFF 0%, #E8F4F9 100%);
+	box-shadow: 0 4px 5px rgba(0, 67, 115, .05);
 }
 
 .feature-image, .feature-copy {
@@ -105,7 +107,7 @@ section {
 }
 
 .device-sync {
-	h2, h4 {
+	h4 {
 		color: $blue;
 	}
 	.icloud-devices {
@@ -121,24 +123,73 @@ section {
 	border-top: 2px solid $light-grey;
 }
 
-.testimonial {
-
-}
-
 .row {
 	margin-bottom: 30px;
 	@include clearfix;
 }
 
+.featured-in {
+	padding: 40px 20px 15px;
+	border-top: 2px solid $light-grey;
+	background-image: radial-gradient(at top, #1F556D, #222C31);
+	h2 {
+		text-align: center;
+		color: #fff;
+	}
+	ul {
+		text-align: center;
+	}
+	li {
+		list-style-type: none;
+		margin: 0 25px;
+		display: inline-block;
+		vertical-align: -webkit-baseline-middle;
+		margin-bottom: 20px;
+		img {
+			display: block;
+			margin: 0 auto;
+		}
+	}
+}
+
 .testimonials {
-	padding-bottom: 60px;
-	@include linear-gradient(48deg, #3271B0 0%, #42CBB4 100%);
+	@include radial-gradient(at bottom,#2FAAD4, #204D63);
 	@include clearfix;
+	h2 {
+		text-align: center;
+		-webkit-margin-before: 0em;
+    -webkit-margin-after: 0.83em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+	}
 	h2,h4,p {
 		color: #fff;
 	}
 	h4, p {
 		text-align: left;
+	}
+	h4 {
+		text-transform: uppercase;
+		text-shadow: 0 1px 1px rgba(0,0,0,.2);
+		color: #2DC8F5;
+		&:before {
+			content: '';
+			background: url('images/stars.png') no-repeat;
+			display: block;
+			width: 68px;
+	    height: 13px;
+	    background-size: contain;
+	    margin-bottom: 5px;
+		}
+	}
+	p {
+		color: #B9D0DC;
+		text-shadow: 0 1px 1px rgba(0,0,0,.2);
+	}
+	h4 span {
+		display: block;
+		font-size: 14px;
+		color: #0B1017;
 	}
 	.store-buttons {
 		position: relative;
@@ -169,7 +220,7 @@ section {
 }
 
 .white-transparency {
-	background: rgba(255, 255, 255, .075);
+	background: rgba(12, 19, 27, .075);
 }
 
 

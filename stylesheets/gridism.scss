@@ -10,6 +10,10 @@
   width: 100%;
 }
 
+.inner-full-width {
+  width: 100%;
+}
+
 .grid,
 .unit {
   -webkit-box-sizing: border-box;
@@ -86,6 +90,8 @@
 .align-right  { text-align: right; }
 .pull-left    { float: left; }
 .pull-right   { float: right; }
+.extra-padding {padding: 40px !important;}
+.no-margin-top {margin-top: 0;}
 
 /* Responsive Stuff */
 @media screen and (max-width: 900px) {

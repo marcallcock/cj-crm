@@ -1,8 +1,9 @@
 .hero {
 	background-color: #29566F;
-	background-image: -webkit-linear-gradient(108deg, #2DBDEE, #306A8E 90%);
+	background-image: -webkit-linear-gradient(108deg, #2FAAD4, #204D63 90%);
 	padding: 110px 0 40px;
 	@include clearfix;
+	box-shadow: inset 0 -1px 3px rgba(0,0,0,.15);
 	.inner {
 		width: 100%;
 		max-width: 1270px;
@@ -29,7 +30,7 @@
 		h2 {
 		  font-size: 28px;
 			font-weight: $font-weight-light;
-			-webkit-margin-before: 0.5em;
+			-webkit-margin-before: 0.2em;
 		  -webkit-margin-after: 0.5em;
 		  -webkit-margin-start: 0px;
 		  -webkit-margin-end: 0px;
@@ -39,6 +40,7 @@
 			font-weight: 300;
 			font-size: 14px;
 			line-height: 1.75;
+			text-shadow: 0 1px 1px rgba(0,0,0,.2);
 		}
 	}
 

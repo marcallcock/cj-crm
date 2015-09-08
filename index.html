@@ -9,8 +9,10 @@
   <meta name="author" content="SitePoint">
   <meta name="viewport" content="width=device-width">
   <link rel="stylesheet" href="style.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-  <script src="node_modules/jquery-lazyload/jquery.lazyload.js"></script>
+  <script src="js/wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
   <!--[if lt IE 9]>
   <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
@@ -62,10 +64,10 @@
       <div class="feature-details">
       <div class="feature-image unit half">
         <div class="inner">
-          <img src="images/logs-tab.png" alt="">
+          <img src="images/logs-tab.png" class="wow animated fadeInLeft" data-wow-delay=".5s" alt="">
         </div>
       </div>
-      <div class="feature-copy unit half">
+      <div class="feature-copy unit half wow animated fadeInRight" data-wow-delay=".5s">
         <div class="inner">
           <h4>Logs</h4>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
@@ -86,10 +88,10 @@
       <div class="feature-details">
         <div class="feature-image unit half">
           <div class="inner">
-            <img src="images/todos-tab.png" alt="">
+            <img src="images/todos-tab.png" class="wow animated fadeInLeft" data-wow-delay=".5s" alt="">
           </div>
         </div>
-        <div class="feature-copy unit half">
+        <div class="feature-copy unit half wow animated fadeInRight" data-wow-delay=".5s">
           <div class="inner">
             <h4>Todos</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
@@ -110,10 +112,10 @@
       <div class="feature-details">
         <div class="feature-image unit half">
           <div class="inner">
-            <img src="images/files-tab.png" alt="">
+            <img src="images/files-tab.png" class="wow animated fadeInLeft" data-wow-delay=".5s" alt="">
           </div>
         </div>
-        <div class="feature-copy unit half">
+        <div class="feature-copy unit half wow animated fadeInRight" data-wow-delay=".5s">
           <div class="inner">
             <h4>files</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
@@ -138,9 +140,26 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
           </div>
         </div>
+        <div class="spacing">
+          <div class="dot med">
+            <span class="point">
+              <span class="pulse"></span>
+            </span>
+          </div>
+        </div>
         <div class="pins">
-          <!-- <img class="pin green-pin animated bounceInDown delay-2" src="images/pins/green-pin.png" alt=""> -->
-          <img class="lazy pin green-pin animated bounceInDown delay-2" data-original="images/pins/green-pin.png" src="images/pins/green-pin.png">
+          <img class="lazy pin orange-pin wow animated bounceInDown delay-1"
+          src="images/pins/orange-pin.png">
+          <img class="lazy pin purple-pin wow animated bounceInDown delay-2"
+          src="images/pins/purple-pin.png">
+          <img class="lazy pin blue-pin wow animated bounceInDown delay-3"
+          src="images/pins/blue-pin.png">
+          <img class="lazy pin red-pin wow animated bounceInDown delay-4"
+          src="images/pins/red-pin.png">
+          <img class="lazy pin green-pin wow animated bounceInDown delay-5"
+          src="images/pins/green-pin.png">
+          <img class="map-address wow animated bounceIn delay-11"
+          src="images/pins/map-address.png">
         </div>
       </div>
     </div>
@@ -240,26 +259,50 @@
     </div>
   </section>
 
+  <div class="featured-in">
+      <div class="row grid">
+        <h2>Featured In</h2>
+        <ul>
+          <li><a href=""><img src="images/features/icon_appstore.png" alt=""></a></li>
+          <li><a href=""><img src="images/features/the_new_york_times.png" alt=""></a></li>
+          <li><a href=""><img src="images/features/macworld.png" alt=""></a></li>
+          <li><a href=""><img src="images/features/imore.png" alt=""></a></li>
+        </ul>
+      </div>
+  </div>
+
   <div class="wide-wrapper testimonials">
     <div class="inner-full-width white-transparency">
-      <section>
+      <section class="wrap wider no-margin-top">
         <h2>Happy Users</h2>
         <div class="row grid">
-          <div class="testimonial unit one-third">
-            <h4>Must have for outside sales</h4>
+          <div class="testimonial unit half">
+            <h4>Must have for outside sales
+            <span><span>by mikegeezz - Mar 4, 2015</span></span>
+            </h4>
             <p>I don't usually take the time to do reviews. But this is a great must have app for any sales person. It has really kept me organized and allows me to make quick notes on the go. I before would write down notes and books and on pieces of paper and always lose information and business card...</p>
           </div>
-          <div class="testimonial unit one-third">
-            <h4>Must have for outside sales</h4>
+          <div class="testimonial unit half">
+            <h4>Exactly what I've been looking for
+            <span>by Tc4012011 - Aug 3, 2015</span>
+            </h4>
+            <p>I've never left a review for an app but this one deserves it. I have probably downloaded 10 contact/CRM apps and they have all either been over complicated and/or didn't streamline my prospecting process but this one is exactly I've been looking for. I tell all of my colleagues about it. I love how it automatically updates files and logs. It would be nice if Google Drive were added as an option to upload files from but for now, Dropbox works fine.</p>
+          </div>
+          <div class="testimonial unit half">
+            <h4>Fantastic CRM App for Sales
+            <span>by Jhawker81 - May 22, 2015</span>
+            </h4>
             <p>I don't usually take the time to do reviews. But this is a great must have app for any sales person. It has really kept me organized and allows me to make quick notes on the go. I before would write down notes and books and on pieces of paper and always lose information and business card...</p>
           </div>
-          <div class="testimonial unit one-third">
-            <h4>Must have for outside sales</h4>
-            <p>I don't usually take the time to do reviews. But this is a great must have app for any sales person. It has really kept me organized and allows me to make quick notes on the go. I before would write down notes and books and on pieces of paper and always lose information and business card...</p>
+          <div class="testimonial unit half">
+            <h4>Great for sales!
+            <span>by zs80 - May 15, 2015</span>
+            </h4>
+            <p>Great features for road warriors, especially the mapping feature is super useful. Been using this for a couple of years; can't live without it.Keeps getting updated all the time. Mac version was added recently. couldn't be happier.</p>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </div>
     <div class="store-buttons">
       <h2>Get started with a free trial</h2>
       <ul>
@@ -277,11 +320,6 @@
 
   <script src="js/scripts.js"></script>
   <script type="text/javascript" src="js/retina.js"></script>
-  <script>
-    $(function() {
-      $("img.lazy").lazyload();
-    });
-  </script>
 
 </body>
 </html>

@@ -55,7 +55,7 @@
 }
 
 .border-bottom-todo {
-	@include linear-gradient(180deg, rgba(66,203,180,0.05) 0%, #42CBB4 100%);
+	@include linear-gradient(-90deg, rgba(66,203,180,0.05) 0%, #42CBB4 100%);
 }
 
 .border-left-todo {
@@ -73,7 +73,7 @@
 }
 
 .border-bottom-files {
-	@include linear-gradient(180deg, rgba(18,71,100,0.05) 0%, #FF814B 100%);
+	@include linear-gradient(-90deg, rgba(18,71,100,0.05) 0%, #FF814B 100%);
 }
 
 .border-left-files {
@@ -91,7 +91,7 @@
 }
 
 .border-bottom-map {
-	@include linear-gradient(180deg, rgba(18,71,100,0.05) 0%, #7493AE 100%);
+	@include linear-gradient(-90deg, rgba(18,71,100,0.05) 0%, #7493AE 100%);
 }
 
 .border-left-map {

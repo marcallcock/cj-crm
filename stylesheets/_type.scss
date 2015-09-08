@@ -6,6 +6,7 @@ h1 {
 	font-size: em(36);
 	font-weight: $font-weight-semi-bold;
 	color: $off-black;
+	text-shadow: 0 1px 1px rgba(0,0,0,.2);
 }
 
 h2 {
@@ -13,6 +14,7 @@ h2 {
 	font-weight: $font-weight-light;
 	color: $off-black;
 	margin: 20px 0 70px;
+	text-shadow: 0 1px 1px rgba(0,0,0,.2);
 	@media screen and (max-width: 900px) {
 		font-size: em(30);
 		margin: 20px 0 40px;
@@ -35,11 +37,12 @@ h4 {
   	-webkit-margin-after: 0;
   	font-weight: $font-weight-normal;
   	font-size: 22px;
+  	text-shadow: 0 1px 1px rgba(0,0,0,.1);
 	}
 
 p {
 	color: $body;
-	font-size: em(18);
+	font-size: em(16);
 	line-height: 1.75;
 	font-weight: $font-weight-light;
 }
