@@ -9,7 +9,6 @@ html {
 
 body {
 	margin: 0;
-	border-bottom: 15px solid $orange;
 }
 
 .store-buttons {
@@ -55,21 +54,40 @@ section {
 }
 
 .track-location {
-	background: url('./images/map.png') no-repeat;
-	background-size: cover;
+  background: url('./images/map.png') no-repeat;
+  background-size: cover;
   background-position: bottom right;
   text-align: left;
+  position: relative;
+  box-shadow: 0 4px 5px rgba(0, 67, 115, .05);
   h2 {
   	margin-bottom: 20px;
   }
   h4 {
   	color: $blue-grey;
   }
+  @media screen and (max-width: 900px) {
+	  &:after {
+		content: "";
+		position: absolute;
+		top: 1px;
+	    bottom: 1px;
+	    left: 1px;
+	    right: 1px;
+		background: #fff;
+		opacity: .75;
+	  }
+	}
 }
 
 .feature-bg-grad {
 	@include linear-gradient(-221deg, #FFFFFF 0%, #E8F4F9 100%);
 	box-shadow: 0 4px 5px rgba(0, 67, 115, .05);
+}
+
+.raised {
+	position: relative;
+	z-index: 999;
 }
 
 .feature-image, .feature-copy {
@@ -129,12 +147,13 @@ section {
 }
 
 .featured-in {
-	padding: 40px 20px 15px;
-	border-top: 2px solid $light-grey;
-	background-image: radial-gradient(at top, #1F556D, #222C31);
+	padding: 10px 20px 1px;
+    border-top: 1px solid #D9E1E4;
+    background-image: radial-gradient(at top, #F0F8FB, #DCE5E8);
 	h2 {
 		text-align: center;
-		color: #fff;
+		margin-bottom: 50px;
+		color: $blue;
 	}
 	ul {
 		text-align: center;
@@ -144,7 +163,11 @@ section {
 		margin: 0 25px;
 		display: inline-block;
 		vertical-align: -webkit-baseline-middle;
-		margin-bottom: 20px;
+		margin-bottom: 10px;
+		@media screen and (max-width: 900px) {
+			display: block;
+			margin-bottom: 30px;
+		}
 		img {
 			display: block;
 			margin: 0 auto;

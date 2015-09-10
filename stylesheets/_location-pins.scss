@@ -35,4 +35,7 @@
 	position: absolute;
 	top: 95px;
 	right: 169px;
+	@media screen and (max-width: 900px) {
+		right: 10px;
+  	}
 }

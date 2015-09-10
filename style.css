@@ -2344,8 +2344,7 @@ html {
   box-sizing: inherit; }
 
 body {
-  margin: 0;
-  border-bottom: 15px solid #FF814B; }
+  margin: 0; }
 
 .store-buttons {
   position: fixed;
@@ -2385,17 +2384,33 @@ section {
   background: url("./images/map.png") no-repeat;
   background-size: cover;
   background-position: bottom right;
-  text-align: left; }
+  text-align: left;
+  position: relative;
+  box-shadow: 0 4px 5px rgba(0, 67, 115, 0.05); }
   .track-location h2 {
     margin-bottom: 20px; }
   .track-location h4 {
     color: #7493AE; }
+  @media screen and (max-width: 900px) {
+    .track-location:after {
+      content: "";
+      position: absolute;
+      top: 1px;
+      bottom: 1px;
+      left: 1px;
+      right: 1px;
+      background: #fff;
+      opacity: .75; } }
 
 .feature-bg-grad {
   background-color: #FFFFFF;
   background-image: -webkit-linear-gradient(-49deg, #FFFFFF 0%, #E8F4F9 100%);
   background-image: linear-gradient(-221deg,#FFFFFF 0%, #E8F4F9 100%);
   box-shadow: 0 4px 5px rgba(0, 67, 115, 0.05); }
+
+.raised {
+  position: relative;
+  z-index: 999; }
 
 .feature-image, .feature-copy {
   text-align: left; }
@@ -2435,12 +2450,13 @@ section {
     display: table; }
 
 .featured-in {
-  padding: 40px 20px 15px;
-  border-top: 2px solid #E8EEF0;
-  background-image: radial-gradient(at top, #1F556D, #222C31); }
+  padding: 10px 20px 1px;
+  border-top: 1px solid #D9E1E4;
+  background-image: radial-gradient(at top, #F0F8FB, #DCE5E8); }
   .featured-in h2 {
     text-align: center;
-    color: #fff; }
+    margin-bottom: 50px;
+    color: #3271B0; }
   .featured-in ul {
     text-align: center; }
   .featured-in li {
@@ -2448,7 +2464,11 @@ section {
     margin: 0 25px;
     display: inline-block;
     vertical-align: -webkit-baseline-middle;
-    margin-bottom: 20px; }
+    margin-bottom: 10px; }
+    @media screen and (max-width: 900px) {
+      .featured-in li {
+        display: block;
+        margin-bottom: 30px; } }
     .featured-in li img {
       display: block;
       margin: 0 auto; }
@@ -2835,12 +2855,19 @@ p {
   position: absolute;
   top: 95px;
   right: 169px; }
+  @media screen and (max-width: 900px) {
+    .map-address {
+      right: 10px; } }
 
 .spacing {
   margin: 0px;
   position: absolute;
   top: 230px;
   right: 370px; }
+  @media screen and (max-width: 900px) {
+    .spacing {
+      right: 10%;
+      top: 50%; } }
 
 @-webkit-keyframes 'fade' {
   0% {
