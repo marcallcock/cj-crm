@@ -16,32 +16,6 @@
 			width: 100px;
 			height: 100px;
 		}
-
-		h1, h2, p {
-			color: #ffffff;
-		}
-
-		h1 {
-			margin-bottom: 0px;
-			-webkit-margin-before: 0em;
-  		-webkit-margin-after: 0em;
-		}
-
-		h2 {
-		  font-size: 28px;
-			font-weight: $font-weight-light;
-			-webkit-margin-before: 0.2em;
-		  -webkit-margin-after: 0.5em;
-		  -webkit-margin-start: 0px;
-		  -webkit-margin-end: 0px;
-		}
-
-		p {
-			font-weight: 300;
-			font-size: 14px;
-			line-height: 1.75;
-			text-shadow: 0 1px 1px rgba(0,0,0,.2);
-		}
 	}
 
 	.divices {
@@ -67,65 +41,41 @@
 		}
 	}
 
+	@media screen and (max-width: 1200px) {
+	  /* Stack anything that isn’t full-width on smaller screens */
+	  .grid .unit {
+	    width: 100% !important;
+	    padding-left: 20px;
+	    padding-right: 20px;
+	  }
+	  .unit .grid .unit {
+	    padding-left: 0px;
+	    padding-right: 0px;
+	  }
 
-	.promotion {
-		h4 {
-			text-align: center;
-			color: #fff;
-			font-size: 18px;
-			font-weight: $font-weight-light;
-			margin-bottom: 20px;
-			&:before {
-				content: 'NEW';
-				display: block;
-				font-size: 22px;
-				font-weight: $font-weight-semi-bold;
-			}
+	  /* Sometimes, you just want to be different on small screens */
+	  .center-on-mobiles {
+	    text-align: center !important;
+	  }
+	  .hide-on-mobiles {
+	    display: none !important;
+	  }
+
+	  text-align: center;
+	  padding-top: 75px;
+
+	  .divices img {
+		  float: none;
+		  margin: 0 auto;
 		}
-		a {
-			text-align: center;
-			display: block;
+	}
+
+	@media screen and (max-width: 1200px) {
+		.animated-icons {
+			display: none;
+		}
+		.divices {
+			margin-bottom: 40px;
 		}
 	}
-
-@media screen and (max-width: 1200px) {
-  /* Stack anything that isn’t full-width on smaller screens */
-  .grid .unit {
-    width: 100% !important;
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-  .unit .grid .unit {
-    padding-left: 0px;
-    padding-right: 0px;
-  }
-
-  /* Sometimes, you just want to be different on small screens */
-  .center-on-mobiles {
-    text-align: center !important;
-  }
-  .hide-on-mobiles {
-    display: none !important;
-  }
-
-  text-align: center;
-  padding-top: 75px;
-
-  .divices img {
-	  float: none;
-	  margin: 0 auto;
-	}
-}
-
-@media screen and (max-width: 1200px) {
-	.animated-icons {
-		display: none;
-	}
-	.divices {
-		margin-bottom: 40px;
-	}
-}
-
-
-
 }

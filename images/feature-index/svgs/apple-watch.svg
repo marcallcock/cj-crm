@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="57px" height="57px" viewBox="0 0 57 57" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.2 (12043) - http://www.bohemiancoding.com/sketch -->
+    <title>apple-watch</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Desktop-HD-Copy-4" sketch:type="MSArtboardGroup" transform="translate(-1234.000000, -4847.000000)">
+            <g id="index-icons" sketch:type="MSLayerGroup" transform="translate(151.000000, 4299.000000)">
+                <g id="apple-watch" transform="translate(1084.000000, 549.000000)" sketch:type="MSShapeGroup">
+                    <g transform="translate(15.000000, 6.000000)">
+                        <g id="Group" transform="translate(5.509615, 12.056818)" fill="#D0D6D8">
+                            <path d="M11.0688218,8.1832363 C11.0510415,6.27303517 12.666089,5.34312342 12.739581,5.3004506 C11.8250789,3.99418833 10.4073932,3.81519958 9.91013636,3.80156799 C8.71885362,3.67947632 7.56431691,4.49974265 6.95800734,4.49974265 C6.3398442,4.49974265 5.40519102,3.81401422 4.39941649,3.83475795 C3.1044151,3.85431633 1.89238863,4.58805167 1.22740393,5.7283641 C-0.144052919,8.05343983 0.878909277,11.4714137 2.19228368,13.3496103 C2.84956357,14.2712245 3.61767423,15.2977428 4.62285609,15.2615894 C5.60670154,15.2224727 5.97356921,14.6481677 7.16129588,14.6481677 C8.337169,14.6481677 8.68210759,15.2615894 9.70744049,15.238475 C10.7624073,15.2224727 11.4279847,14.31449 12.0621501,13.385171 C12.8219633,12.3302041 13.1265998,11.2918323 13.139046,11.2378986 C13.1141535,11.2290085 11.0895655,10.473344 11.0688218,8.1832363 L11.0688218,8.1832363 Z" id="Shape"></path>
+                            <path d="M9.13195017,2.56583439 C9.66061893,1.91744468 10.0221525,1.0367252 9.92198992,0.142374126 C9.15624997,0.174971415 8.19848235,0.660374682 7.64729183,1.29454012 C7.15951785,1.8522501 6.72389953,2.76793759 6.83650835,3.62850601 C7.6964841,3.69132988 8.57957429,3.2035559 9.13195017,2.56583439 L9.13195017,2.56583439 Z" id="Shape"></path>
+                        </g>
+                        <rect id="Rectangle-21" fill="#99A4A8" x="6" y="0" width="13" height="5"></rect>
+                        <rect id="Rectangle-21-Copy" fill="#99A4A8" x="6" y="36" width="13" height="5"></rect>
+                        <rect id="Rectangle-20" stroke="#D0D6D8" x="0" y="5" width="25" height="31" rx="3"></rect>
+                    </g>
+                    <rect id="Rectangle-2" stroke="#42CBB4" stroke-width="2" x="0" y="0" width="55" height="55" rx="8"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

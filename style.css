@@ -2387,10 +2387,6 @@ section {
   text-align: left;
   position: relative;
   box-shadow: 0 4px 5px rgba(0, 67, 115, 0.05); }
-  .track-location h2 {
-    margin-bottom: 20px; }
-  .track-location h4 {
-    color: #7493AE; }
   @media screen and (max-width: 900px) {
     .track-location:after {
       content: "";
@@ -2422,17 +2418,6 @@ section {
   display: block;
   margin: 0 auto; }
 
-.logs h4 {
-  color: #999ED3; }
-
-.todos h4 {
-  color: #42CBB4; }
-
-.files h4 {
-  color: #FF814B; }
-
-.device-sync h4 {
-  color: #3271B0; }
 .device-sync .icloud-devices {
   width: 153px; }
 .device-sync img.icloud-logo {
@@ -2442,21 +2427,10 @@ section {
   width: 100%;
   border-top: 2px solid #E8EEF0; }
 
-.row {
-  margin-bottom: 30px; }
-  .row::after {
-    clear: both;
-    content: "";
-    display: table; }
-
 .featured-in {
   padding: 10px 20px 1px;
   border-top: 1px solid #D9E1E4;
   background-image: radial-gradient(at top, #F0F8FB, #DCE5E8); }
-  .featured-in h2 {
-    text-align: center;
-    margin-bottom: 50px;
-    color: #3271B0; }
   .featured-in ul {
     text-align: center; }
   .featured-in li {
@@ -2480,55 +2454,16 @@ section {
     clear: both;
     content: "";
     display: table; }
-  .testimonials h2 {
-    text-align: center;
-    -webkit-margin-before: 0em;
-    -webkit-margin-after: 0.83em;
-    -webkit-margin-start: 0px;
-    -webkit-margin-end: 0px; }
-  .testimonials h2, .testimonials h4, .testimonials p {
-    color: #fff; }
-  .testimonials h4, .testimonials p {
-    text-align: left; }
-  .testimonials h4 {
-    text-transform: uppercase;
-    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
-    color: #2DC8F5; }
-    .testimonials h4:before {
-      content: '';
-      background: url("images/stars.png") no-repeat;
-      display: block;
-      width: 68px;
-      height: 13px;
-      background-size: contain;
-      margin-bottom: 5px; }
-  .testimonials p {
-    color: #B9D0DC;
-    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2); }
-  .testimonials h4 span {
-    display: block;
-    font-size: 14px;
-    color: #0B1017; }
   .testimonials .store-buttons {
     position: relative; }
-    .testimonials .store-buttons h2 {
-      margin-bottom: 30px; }
     .testimonials .store-buttons ul {
       margin-bottom: 60px; }
-  .testimonials footer p {
-    margin-bottom: 30px;
-    text-align: center; }
-    .testimonials footer p span {
-      color: #fff;
-      font-size: 14px;
-      text-align: center;
-      display: block;
-      margin-top: 30px; }
-    .testimonials footer p a {
-      color: #fff; }
 
 .white-transparency {
   background: rgba(12, 19, 27, 0.075); }
+
+.disabled {
+  display: block; }
 
 body {
   font-family: 'Open Sans', sans-serif; }
@@ -2550,6 +2485,44 @@ h2 {
       font-size: 1.875em;
       margin: 20px 0 40px; } }
 
+.hero .product-intro h1, .hero .product-intro h2, .hero .product-intro p {
+  color: #ffffff; }
+.hero .product-intro h1 {
+  margin-bottom: 0px;
+  -webkit-margin-before: 0em;
+  -webkit-margin-after: 0em; }
+.hero .product-intro h2 {
+  font-size: 28px;
+  font-weight: 300;
+  -webkit-margin-before: 0.2em;
+  -webkit-margin-after: 0.5em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px; }
+.hero .product-intro p {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 1.75;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2); }
+.hero .promotion h4 {
+  text-align: center;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 300;
+  margin-bottom: 20px; }
+  .hero .promotion h4:before {
+    content: 'NEW';
+    display: block;
+    font-size: 22px;
+    font-weight: 600; }
+.hero .promotion a {
+  text-align: center;
+  display: block; }
+
+.track-location h2 {
+  margin-bottom: 20px; }
+.track-location h4 {
+  color: #7493AE; }
+
 .device-sync h2 {
   margin-bottom: 20px; }
 
@@ -2570,6 +2543,66 @@ p {
   line-height: 1.75;
   font-weight: 300; }
 
+.logs h4 {
+  color: #999ED3; }
+
+.todos h4 {
+  color: #42CBB4; }
+
+.files h4 {
+  color: #FF814B; }
+
+.device-sync h4 {
+  color: #3271B0; }
+
+.featured-in h2 {
+  text-align: center;
+  margin-bottom: 50px;
+  color: #3271B0; }
+
+.testimonials h2 {
+  text-align: center;
+  -webkit-margin-before: 0em;
+  -webkit-margin-after: 0.83em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px; }
+.testimonials h2, .testimonials h4, .testimonials p {
+  color: #fff; }
+.testimonials h4, .testimonials p {
+  text-align: left; }
+.testimonials h4 {
+  text-transform: uppercase;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  color: #2DC8F5; }
+  .testimonials h4:before {
+    content: '';
+    background: url("images/stars.png") no-repeat;
+    display: block;
+    width: 68px;
+    height: 13px;
+    background-size: contain;
+    margin-bottom: 5px; }
+.testimonials p {
+  color: #B9D0DC;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2); }
+.testimonials h4 span {
+  display: block;
+  font-size: 14px;
+  color: #0B1017; }
+.testimonials .store-buttons h2 {
+  margin-bottom: 30px; }
+.testimonials footer p {
+  margin-bottom: 30px;
+  text-align: center; }
+  .testimonials footer p span {
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    display: block;
+    margin-top: 30px; }
+  .testimonials footer p a {
+    color: #fff; }
+
 .hero {
   background-color: #29566F;
   background-image: -webkit-linear-gradient(108deg, #2FAAD4, #204D63 90%);
@@ -2588,24 +2621,6 @@ p {
     .hero .product-intro .app-icon {
       width: 100px;
       height: 100px; }
-    .hero .product-intro h1, .hero .product-intro h2, .hero .product-intro p {
-      color: #ffffff; }
-    .hero .product-intro h1 {
-      margin-bottom: 0px;
-      -webkit-margin-before: 0em;
-      -webkit-margin-after: 0em; }
-    .hero .product-intro h2 {
-      font-size: 28px;
-      font-weight: 300;
-      -webkit-margin-before: 0.2em;
-      -webkit-margin-after: 0.5em;
-      -webkit-margin-start: 0px;
-      -webkit-margin-end: 0px; }
-    .hero .product-intro p {
-      font-weight: 300;
-      font-size: 14px;
-      line-height: 1.75;
-      text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2); }
   .hero .divices img {
     display: block;
     margin-top: 40px;
@@ -2622,20 +2637,6 @@ p {
       display: inline-block;
       margin-left: 2.9%;
       margin-right: 2.9%; }
-  .hero .promotion h4 {
-    text-align: center;
-    color: #fff;
-    font-size: 18px;
-    font-weight: 300;
-    margin-bottom: 20px; }
-    .hero .promotion h4:before {
-      content: 'NEW';
-      display: block;
-      font-size: 22px;
-      font-weight: 600; }
-  .hero .promotion a {
-    text-align: center;
-    display: block; }
   @media screen and (max-width: 1200px) {
     .hero {
       /* Stack anything that isn’t full-width on smaller screens */

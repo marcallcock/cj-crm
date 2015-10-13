@@ -21,6 +21,65 @@ h2 {
 	}
 }
 
+.hero {
+	.product-intro {
+		h1, h2, p {
+			color: #ffffff;
+		}
+
+		h1 {
+			margin-bottom: 0px;
+			-webkit-margin-before: 0em;
+  		-webkit-margin-after: 0em;
+		}
+
+		h2 {
+		  font-size: 28px;
+			font-weight: $font-weight-light;
+			-webkit-margin-before: 0.2em;
+		  -webkit-margin-after: 0.5em;
+		  -webkit-margin-start: 0px;
+		  -webkit-margin-end: 0px;
+		}
+
+		p {
+			font-weight: 300;
+			font-size: 14px;
+			line-height: 1.75;
+			text-shadow: 0 1px 1px rgba(0,0,0,.2);
+		}
+	}
+
+	.promotion {
+		h4 {
+			text-align: center;
+			color: #fff;
+			font-size: 18px;
+			font-weight: $font-weight-light;
+			margin-bottom: 20px;
+			&:before {
+				content: 'NEW';
+				display: block;
+				font-size: 22px;
+				font-weight: $font-weight-semi-bold;
+			}
+		}
+		a {
+			text-align: center;
+			display: block;
+		}
+	}
+}
+
+.track-location {
+  h2 {
+  	margin-bottom: 20px;
+  }
+  h4 {
+  	color: $blue-grey;
+  }
+}
+
 .device-sync {
 	h2 {
 		margin-bottom: 20px;
@@ -34,10 +93,10 @@ h3 {
 
 h4 {
 	-webkit-margin-before: 0;
-  	-webkit-margin-after: 0;
-  	font-weight: $font-weight-normal;
-  	font-size: 22px;
-  	text-shadow: 0 1px 1px rgba(0,0,0,.1);
+	-webkit-margin-after: 0;
+	font-weight: $font-weight-normal;
+	font-size: 22px;
+	text-shadow: 0 1px 1px rgba(0,0,0,.1);
 	}
 
 p {
@@ -45,4 +104,102 @@ p {
 	font-size: em(16);
 	line-height: 1.75;
 	font-weight: $font-weight-light;
+}
+
+//custom type
+
+.logs {
+	h4 {
+		color: $purple;
+	}
+}
+
+.todos {
+	h4 {
+		color: $green;
+	}
+}
+
+.files {
+	h4 {
+		color: $orange;
+	}
+}
+
+.device-sync {
+	h4 {
+		color: $blue;
+	}
+}
+
+.featured-in {
+	h2 {
+		text-align: center;
+		margin-bottom: 50px;
+		color: $blue;
+	}
+}
+
+.testimonials {
+	h2 {
+		text-align: center;
+		-webkit-margin-before: 0em;
+    -webkit-margin-after: 0.83em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+	}
+	h2,h4,p {
+		color: #fff;
+	}
+	h4, p {
+		text-align: left;
+	}
+	h4 {
+		text-transform: uppercase;
+		text-shadow: 0 1px 1px rgba(0,0,0,.2);
+		color: #2DC8F5;
+		&:before {
+			content: '';
+			background: url('images/stars.png') no-repeat;
+			display: block;
+			width: 68px;
+	    height: 13px;
+	    background-size: contain;
+	    margin-bottom: 5px;
+		}
+	}
+
+	p {
+		color: #B9D0DC;
+		text-shadow: 0 1px 1px rgba(0,0,0,.2);
+	}
+
+	h4 span {
+		display: block;
+		font-size: 14px;
+		color: #0B1017;
+	}
+
+	.store-buttons {
+		h2 {
+			margin-bottom: 30px;
+		}
+	}
+
+	footer {
+		p {
+			margin-bottom: 30px;
+			text-align: center;
+			span {
+				color: #fff;
+				font-size: 14px;
+				text-align: center;
+				display: block;
+				margin-top: 30px;
+			}
+			a {
+				color: #fff;
+			}
+		}
+	}
 }
