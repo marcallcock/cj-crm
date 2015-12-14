@@ -4,6 +4,9 @@
 		-webkit-animation-duration: 1.5s;
 		animation-duration: 1.5s;
 	}
+	@media screen and (max-width: 900px) {
+		display: none;
+	}
 }
 
 .orange-pin {
@@ -36,6 +39,6 @@
 	top: 95px;
 	right: 169px;
 	@media screen and (max-width: 900px) {
-		right: 10px;
+		display: none;
   	}
 }
